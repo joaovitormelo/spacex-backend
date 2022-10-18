@@ -2,9 +2,10 @@
   "name": "spacex-backend",
   "version": "1.0.0",
   "description": "Backend for SpaceX Api Consumer App",
-  "main": "index.js",
+  "main": "./src/index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,14 @@
     "typescript": "^4.8.4"
   },
   "dependencies": {
-    "express": "^4.18.2"
+    "@types/node": "^18.11.0",
+    "axios": "^1.1.3",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "helmet": "^6.0.0",
+    "moment-timezone": "^0.5.38",
+    "nodemon": "^2.0.20"
   }
 }
