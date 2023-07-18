@@ -6,8 +6,8 @@ Backend para consumir a API SpaceX
 
 Para configurar o ambiente, são necessários dois passos:
 
-- Execução do comando ```npm install```, para instalar todas as dependências.
-- Criação do arquivo .env, configurando a variável de ambiente ```PORT``` com a porta desejada.
+* Execução do comando ```npm install```, para instalar todas as dependências.
+* Criação do arquivo .env, configurando a variável de ambiente ```PORT``` com a porta desejada.
 
 ## Arquitetura
 
